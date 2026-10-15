@@ -2,3 +2,6 @@
 # The book PDFs in the system-design library are not to be crawled; everything else is.
 User-agent: *
 Disallow: /system-design/*.pdf$
+
+# Bootstrap discovery without waiting for inbound links: crawlers read Sitemap from the domain-root robots.txt.
+Sitemap: https://gouravb20.github.io/system-design/sitemap-index.xml
