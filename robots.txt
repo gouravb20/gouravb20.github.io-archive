@@ -1,0 +1,4 @@
+# Applies to every site under gouravb20.github.io, including project sites such as /system-design/.
+# The book PDFs in the system-design library are not to be crawled; everything else is.
+User-agent: *
+Disallow: /system-design/*.pdf$
